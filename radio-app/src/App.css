@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Fredericka+the+Great&family=Major+Mono+Display&family=Righteous&family=Roboto+Mono:ital,wght@0,300;0,700;1,700&display=swap");
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  background: #1f2833;
+}
+
+h1 {
+  font-family: "Cutive Mono", Verdana, Geneva, Tahoma, sans-serif;
+  color: #66fcf1;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+}

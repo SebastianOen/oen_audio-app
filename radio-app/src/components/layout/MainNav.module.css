@@ -1,0 +1,38 @@
+.logo {
+  font-family: "Cutive Mono", Verdana, Geneva, Tahoma, sans-serif;
+  color: #66fcf1;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links {
+  color: #66fcf1;
+  text-decoration: none;
+  font-family: "Righteous", Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.nav a {
+  scale: 1;
+  padding: 0 30px;
+  transition: scale 200ms ease-in-out;
+}
+
+.nav a:hover {
+  scale: 1.2;
+  text-decoration: underline 3px;
+}
+
+@media (max-width: 800px) {
+  .links {
+    font-size: 1.2em;
+  }
+}

@@ -1,0 +1,18 @@
+.play,
+.pause,
+.next,
+.prev {
+  margin: 0 30px;
+  background: #1f2833;
+  color: #66fcf1;
+  border: none;
+  font-size: 2em;
+}
+
+.play:hover,
+.pause:hover,
+.next:hover,
+.prev:hover {
+  cursor: pointer;
+  scale: 1.2;
+}

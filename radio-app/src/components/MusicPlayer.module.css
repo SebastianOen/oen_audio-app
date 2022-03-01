@@ -1,0 +1,46 @@
+.audioPlayer {
+  box-shadow: 0 28px 28px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  max-height: 300px;
+  border-radius: 20px;
+  color: #66fcf1;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.trackInfo {
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  font-family: "Righteous", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.songTitle {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.artistTitle {
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.progress {
+  height: 5px;
+  -webkit-appearance: none;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .audioPlayer {
+    top: -250px;
+  }
+}

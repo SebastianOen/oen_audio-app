@@ -1,10 +1,18 @@
 import "./App.css";
-import AudioPlayer from "./components/AudioPlayer";
+import { Routes, Route } from "react-router-dom";
+import MusicPlayerPage from "./pages/MusicPlayerPage";
 
-function App() {
+import MusicListPage from "./pages/MusicListPage";
+import MainNav from "./components/layout/MainNav";
+
+function App(props) {
   return (
     <div className="App">
-      <AudioPlayer />
+      <MainNav />
+      <Routes>
+        <Route path="/" element={<MusicPlayerPage />} />
+        <Route path="/List" element={<MusicListPage />} />
+      </Routes>
     </div>
   );
 }
