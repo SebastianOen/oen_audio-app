@@ -3,7 +3,7 @@
 .next,
 .prev {
   margin: 0 30px;
-  background: #1f2833;
+  background: transparent;
   color: #66fcf1;
   border: none;
   font-size: 2em;

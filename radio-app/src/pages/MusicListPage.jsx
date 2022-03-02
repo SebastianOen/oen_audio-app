@@ -1,7 +1,7 @@
-import classes from "./MusicList.module.css";
+import TrackList from "../components/TrackList";
 
 function MusicListPage() {
-  return <div className={classes.cons}>Under Construction</div>;
+  return <TrackList />;
 }
 
 export default MusicListPage;

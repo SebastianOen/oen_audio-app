@@ -1,7 +1,7 @@
 .audioPlayer {
   box-shadow: 0 28px 28px rgba(0, 0, 0, 0.2);
   max-width: 400px;
-  max-height: 300px;
+  max-height: 400px;
   border-radius: 20px;
   color: #66fcf1;
   padding: 30px;
@@ -12,6 +12,24 @@
   right: 0;
   margin: auto;
 }
+/*
+  background: linear-gradient(-45deg, #d83f87, #44318d, #2a1b3d, #f8de7e);
+  background-size: 300% 10%;
+  background-repeat: no-repeat;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 74%;
+  }
+  50% {
+    background-position: 100% 74%;
+  }
+  100% {
+    background-position: 0% 74%;
+  }
+}*/
 
 .trackInfo {
   text-align: center;
@@ -41,6 +59,6 @@
 
 @media (max-width: 800px) {
   .audioPlayer {
-    top: -250px;
+    top: -50px;
   }
 }

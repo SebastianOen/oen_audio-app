@@ -9,7 +9,7 @@ const AudioPlayer = ({ tracks }) => {
   const [trackProgress, setTrackProgress] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
 
-  const { title, artist, audioSrc } = tracks[trackIndex];
+  const { title, artist, album, audioSrc } = tracks[trackIndex];
 
   const audioRef = useRef(new Audio(audioSrc));
   const intervalRef = useRef();
@@ -100,7 +100,10 @@ const AudioPlayer = ({ tracks }) => {
     <div className={classes.audioPlayer}>
       <div className={classes.trackInfo}>
         <h2 className={classes.songTitle}>{title}</h2>
+        <p>by</p>
         <h3 className={classes.artistTitle}>{artist}</h3>
+        <p>From</p>
+        <h3 className={classes.artistTitle}>{album}</h3>
         <AudioControls
           isPlaying={isPlaying}
           onPrevClick={toPrevTrack}
