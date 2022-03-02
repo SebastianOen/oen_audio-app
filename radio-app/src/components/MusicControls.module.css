@@ -16,3 +16,13 @@
   cursor: pointer;
   scale: 1.25;
 }
+
+@media (max-width: 800px) {
+  .play,
+  .pause,
+  .next,
+  .prev {
+    font-size: 1.5em;
+    margin: 0 20px;
+  }
+}
