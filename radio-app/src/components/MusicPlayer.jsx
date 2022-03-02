@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import classes from "./MusicPlayer.module.css";
 import AudioControls from "./MusicControls";
-import tracks from "../tracks";
 
 const AudioPlayer = ({ tracks }) => {
   const [trackIndex, setTrackIndex] = useState(0);
